@@ -14,19 +14,19 @@ test-sbf = []
 
 [dependencies]
 bytemuck = { version = "1.22.0", features = ["derive"] }
-solana-account-info = "2.2.1"
-solana-cpi = "2.2.1"
-solana-instruction = "2.2.1"
-solana-msg = "2.2.1"
-solana-program-entrypoint = "2.2.1"
-solana-program-error = "2.2.1"
-solana-pubkey = { version = "2.2.1", features = ["curve25519"] }
-solana-rent = "2.2.1"
-solana-sdk-ids = "2.2.1"
+solana-account-info = "*"
+solana-cpi = "*"
+solana-instruction = "*"
+solana-msg = "*"
+solana-program-entrypoint = "*"
+solana-program-error = "*"
+solana-pubkey = { version = "*", features = ["curve25519"] }
+solana-rent = "*"
+solana-sdk-ids = "*"
 solana-security-txt = "1.1.1"
 solana-system-interface = { version = "1.0.0", features = ["bincode"] }
-solana-sysvar = { version = "2.2.1", features = ["bincode"] }
-solana-zk-sdk = "2.2.0"
+solana-sysvar = { version = "*", features = ["bincode"] }
+solana-zk-sdk = "*"
 spl-pod = "0.5.1"
 spl-token-confidential-transfer-proof-extraction = { version = "0.3.0", path = "../proof-extraction" }
 
